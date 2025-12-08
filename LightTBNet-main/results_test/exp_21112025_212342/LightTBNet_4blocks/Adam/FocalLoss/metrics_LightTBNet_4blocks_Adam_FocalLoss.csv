@@ -1,0 +1,2 @@
+,test_acc,test_f1,test_auc,test_precision,test_sn,test_sp,test_recall
+0,0.9902,0.9901,1.0,1.0,0.9804,1.0,0.9804

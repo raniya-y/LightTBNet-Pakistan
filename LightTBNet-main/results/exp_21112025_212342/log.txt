@@ -1,0 +1,2775 @@
+###### LOGGER INITIALIZED ######
+
+Please cite the following paper when using LightTBNet:
+
+D. Capellán-Martín, J. J. Gómez-Valverde, D. Bermejo-Peláez and M. J. Ledesma-Carbayo. "A Lightweight, Rapid and Efficient Deep Convolutional Network for Chest X-Ray Tuberculosis Detection," 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI), Cartagena, Colombia, 2023, pp. 1-5, doi: 10.1109/ISBI53787.2023.10230500.
+
+If you have questions or suggestions, feel free to open an issue at https://github.com/dani-capellan/LightTBNet
+
+### CONFIGURATIONS ###
+
+{'random_state': 2022, 'log_output': True, 'adapt_df': True, 'out_training_dir': './results', 'data_in': {'csv': './data/dataset.csv', 'pkl': './data/images.pkl'}, 'img_dim_ai': 64, 'wandb': {'enable_tracking': False, 'save_test_predictions': False}, 'clahe': {'enabled': True}, 'experimentDescription': {'project_name': '[ISBI 2023] LightTBNet', 'experiment_description': '', 'experiment_name': 'exp_21112025_212342'}, 'experimentEnv': {'models': ['LightTBNet_4blocks'], 'optimizers': ['Adam'], 'losses': ['FocalLoss'], 'test_model': True, 'num_classes': 2, 'data_augmentation': True, 'training-dev_split': False, 'use_validation_split': True, 'batch_size': 2, 'test_batch_size': 32, 'optim_args': {'Adam': {'learning_rate': 0.0001, 'beta_1': 0.9, 'beta_2': 0.999, 'weight_decay': 0.0001}, 'SGD': {'learning_rate': 0.01, 'weight_decay': 0.0001}, 'RMSprop': {'learning_rate': 0.01, 'weight_decay': 0.0001}}, 'epochs': 10, 'trim_epochs_ratio': 1, 'apply_softmax': True, 'pred_thresh': 0.5, 'save_model_on_epoch': {'enabled': True, 'freq': 10}, 'post_training_remove_checkpoints': True, 'classes': "('no-TB', 'TB')", 'cross_validation': {'enabled': True, 'k': 5}}, 'logger': <Logger utils.utils (DEBUG)>}
+
+######################
+
+[INFO] initializing the model...
+	 Model: LightTBNet_4blocks
+	 Optimizer: Adam
+	 Loss function: FocalLoss
+	 Fold: 0
+Pytorch-Summary failed. Please check if anything is wrong. Please note that for DenseNet121, some errors may occur.
+[INFO] training the network...
+[INFO] EPOCH: 1/10
+Train loss: 0.061795, Train accuracy: 0.9037
+Val loss: 0.015225, Val accuracy: 0.9756, Val F1: 0.9767, Val AUC: 1.0000
+
+Loaded backend tkagg version 8.6.
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_00/model.pth 
+
+[INFO] EPOCH: 2/10
+Train loss: 0.014666, Train accuracy: 0.9817
+Val loss: 0.010229, Val accuracy: 0.9817, Val F1: 0.9827, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_01/model.pth 
+
+[INFO] EPOCH: 3/10
+Train loss: 0.010948, Train accuracy: 0.9832
+Val loss: 0.023241, Val accuracy: 0.9634, Val F1: 0.9647, Val AUC: 0.9999
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_02/model.pth 
+
+[INFO] EPOCH: 4/10
+Train loss: 0.013829, Train accuracy: 0.9847
+Val loss: 0.012968, Val accuracy: 0.9817, Val F1: 0.9827, Val AUC: 0.9996
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_03/model.pth 
+
+[INFO] EPOCH: 5/10
+Train loss: 0.012029, Train accuracy: 0.9878
+Val loss: 0.003008, Val accuracy: 0.9939, Val F1: 0.9943, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_04/model.pth 
+
+[INFO] EPOCH: 6/10
+Train loss: 0.003634, Train accuracy: 0.9969
+Val loss: 0.003628, Val accuracy: 0.9939, Val F1: 0.9943, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_05/model.pth 
+
+[INFO] EPOCH: 7/10
+Train loss: 0.002838, Train accuracy: 0.9969
+Val loss: 0.001034, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_06/model.pth 
+
+[INFO] EPOCH: 8/10
+Train loss: 0.001086, Train accuracy: 1.0000
+Val loss: 0.002278, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_07/model.pth 
+
+[INFO] EPOCH: 9/10
+Train loss: 0.001660, Train accuracy: 0.9985
+Val loss: 0.002002, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_08/model.pth 
+
+[INFO] EPOCH: 10/10
+Train loss: 0.009099, Train accuracy: 0.9924
+Val loss: 0.004881, Val accuracy: 0.9878, Val F1: 0.9885, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_09/model.pth 
+
+[INFO] total time taken to train the model: 157.07s 
+
+Finished Training 
+
+[INFO] Saving model... 
+
+[INFO] Selecting best epoch...
+
+Best epoch starting with 0: 9
+Best epoch starting with 1: 10
+[INFO] testing network...
+
+[INFO] Displaying test metrics & results (single model)...
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       103
+           1       1.00      0.98      0.99       102
+
+    accuracy                           0.99       205
+   macro avg       0.99      0.99      0.99       205
+weighted avg       0.99      0.99      0.99       205
+
+TEST METRICS: {'test_acc': 0.9902439024390244, 'test_f1': 0.9900990099009901, 'test_precision': 1.0, 'test_recall': 0.9803921568627451, 'test_auc': 1.0, 'test_sn': 0.9803921568627451, 'test_sp': np.float64(1.0)}
+
+
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_04
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_02
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_09
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_05
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_08
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_07
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_03
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_00
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_01
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_0/epoch_06
+[INFO] initializing the model...
+	 Model: LightTBNet_4blocks
+	 Optimizer: Adam
+	 Loss function: FocalLoss
+	 Fold: 1
+Pytorch-Summary failed. Please check if anything is wrong. Please note that for DenseNet121, some errors may occur.
+[INFO] training the network...
+[INFO] EPOCH: 1/10
+Train loss: 0.065130, Train accuracy: 0.8991
+Val loss: 0.011649, Val accuracy: 0.9878, Val F1: 0.9877, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_00/model.pth 
+
+[INFO] EPOCH: 2/10
+Train loss: 0.021009, Train accuracy: 0.9771
+Val loss: 0.007727, Val accuracy: 0.9939, Val F1: 0.9939, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_01/model.pth 
+
+[INFO] EPOCH: 3/10
+Train loss: 0.011643, Train accuracy: 0.9847
+Val loss: 0.003238, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_02/model.pth 
+
+[INFO] EPOCH: 4/10
+Train loss: 0.007739, Train accuracy: 0.9924
+Val loss: 0.021681, Val accuracy: 0.9756, Val F1: 0.9750, Val AUC: 0.9999
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_03/model.pth 
+
+[INFO] EPOCH: 5/10
+Train loss: 0.012890, Train accuracy: 0.9817
+Val loss: 0.007960, Val accuracy: 0.9878, Val F1: 0.9877, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_04/model.pth 
+
+[INFO] EPOCH: 6/10
+Train loss: 0.004401, Train accuracy: 0.9954
+Val loss: 0.013930, Val accuracy: 0.9817, Val F1: 0.9814, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_05/model.pth 
+
+[INFO] EPOCH: 7/10
+Train loss: 0.001278, Train accuracy: 1.0000
+Val loss: 0.004127, Val accuracy: 0.9878, Val F1: 0.9877, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_06/model.pth 
+
+[INFO] EPOCH: 8/10
+Train loss: 0.001203, Train accuracy: 0.9985
+Val loss: 0.001427, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_07/model.pth 
+
+[INFO] EPOCH: 9/10
+Train loss: 0.000678, Train accuracy: 1.0000
+Val loss: 0.001301, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_08/model.pth 
+
+[INFO] EPOCH: 10/10
+Train loss: 0.015525, Train accuracy: 0.9771
+Val loss: 0.001447, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_09/model.pth 
+
+[INFO] total time taken to train the model: 163.41s 
+
+Finished Training 
+
+[INFO] Saving model... 
+
+[INFO] Selecting best epoch...
+
+Best epoch starting with 0: 9
+Best epoch starting with 1: 10
+[INFO] testing network...
+
+[INFO] Displaying test metrics & results (single model)...
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       103
+           1       0.98      1.00      0.99       102
+
+    accuracy                           0.99       205
+   macro avg       0.99      0.99      0.99       205
+weighted avg       0.99      0.99      0.99       205
+
+TEST METRICS: {'test_acc': 0.9902439024390244, 'test_f1': 0.9902912621359223, 'test_precision': 0.9807692307692307, 'test_recall': 1.0, 'test_auc': 0.9998096325909005, 'test_sn': 1.0, 'test_sp': np.float64(0.9805825242718447)}
+
+
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_04
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_02
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_09
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_05
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_08
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_07
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_03
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_00
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_01
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_1/epoch_06
+[INFO] initializing the model...
+	 Model: LightTBNet_4blocks
+	 Optimizer: Adam
+	 Loss function: FocalLoss
+	 Fold: 2
+Pytorch-Summary failed. Please check if anything is wrong. Please note that for DenseNet121, some errors may occur.
+[INFO] training the network...
+[INFO] EPOCH: 1/10
+Train loss: 0.063353, Train accuracy: 0.9174
+Val loss: 0.022400, Val accuracy: 0.9573, Val F1: 0.9530, Val AUC: 0.9984
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_00/model.pth 
+
+[INFO] EPOCH: 2/10
+Train loss: 0.018253, Train accuracy: 0.9771
+Val loss: 0.005156, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_01/model.pth 
+
+[INFO] EPOCH: 3/10
+Train loss: 0.010565, Train accuracy: 0.9878
+Val loss: 0.010856, Val accuracy: 0.9817, Val F1: 0.9804, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_02/model.pth 
+
+[INFO] EPOCH: 4/10
+Train loss: 0.014277, Train accuracy: 0.9862
+Val loss: 0.008210, Val accuracy: 0.9939, Val F1: 0.9935, Val AUC: 0.9991
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_03/model.pth 
+
+[INFO] EPOCH: 5/10
+Train loss: 0.004956, Train accuracy: 0.9954
+Val loss: 0.006158, Val accuracy: 0.9939, Val F1: 0.9936, Val AUC: 0.9997
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_04/model.pth 
+
+[INFO] EPOCH: 6/10
+Train loss: 0.004522, Train accuracy: 0.9939
+Val loss: 0.016633, Val accuracy: 0.9756, Val F1: 0.9737, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_05/model.pth 
+
+[INFO] EPOCH: 7/10
+Train loss: 0.005913, Train accuracy: 0.9878
+Val loss: 0.007355, Val accuracy: 0.9756, Val F1: 0.9737, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_06/model.pth 
+
+[INFO] EPOCH: 8/10
+Train loss: 0.009588, Train accuracy: 0.9847
+Val loss: 0.024118, Val accuracy: 0.9695, Val F1: 0.9669, Val AUC: 0.9997
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_07/model.pth 
+
+[INFO] EPOCH: 9/10
+Train loss: 0.012581, Train accuracy: 0.9832
+Val loss: 0.003052, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_08/model.pth 
+
+[INFO] EPOCH: 10/10
+Train loss: 0.010457, Train accuracy: 0.9847
+Val loss: 0.003514, Val accuracy: 0.9939, Val F1: 0.9935, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_09/model.pth 
+
+[INFO] total time taken to train the model: 191.76s 
+
+Finished Training 
+
+[INFO] Saving model... 
+
+[INFO] Selecting best epoch...
+
+Best epoch starting with 0: 9
+Best epoch starting with 1: 10
+[INFO] testing network...
+
+[INFO] Displaying test metrics & results (single model)...
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       103
+           1       1.00      0.99      1.00       102
+
+    accuracy                           1.00       205
+   macro avg       1.00      1.00      1.00       205
+weighted avg       1.00      1.00      1.00       205
+
+TEST METRICS: {'test_acc': 0.9951219512195122, 'test_f1': 0.9950738916256158, 'test_precision': 1.0, 'test_recall': 0.9901960784313726, 'test_auc': 1.0, 'test_sn': 0.9901960784313726, 'test_sp': np.float64(1.0)}
+
+
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_04
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_02
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_09
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_05
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_08
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_07
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_03
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_00
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_01
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_2/epoch_06
+[INFO] initializing the model...
+	 Model: LightTBNet_4blocks
+	 Optimizer: Adam
+	 Loss function: FocalLoss
+	 Fold: 3
+Pytorch-Summary failed. Please check if anything is wrong. Please note that for DenseNet121, some errors may occur.
+[INFO] training the network...
+[INFO] EPOCH: 1/10
+Train loss: 0.072217, Train accuracy: 0.8885
+Val loss: 0.008830, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_00/model.pth 
+
+[INFO] EPOCH: 2/10
+Train loss: 0.015226, Train accuracy: 0.9771
+Val loss: 0.007682, Val accuracy: 0.9939, Val F1: 0.9938, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_01/model.pth 
+
+[INFO] EPOCH: 3/10
+Train loss: 0.012655, Train accuracy: 0.9817
+Val loss: 0.010304, Val accuracy: 0.9877, Val F1: 0.9877, Val AUC: 0.9998
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_02/model.pth 
+
+[INFO] EPOCH: 4/10
+Train loss: 0.013892, Train accuracy: 0.9802
+Val loss: 0.002116, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_03/model.pth 
+
+[INFO] EPOCH: 5/10
+Train loss: 0.004828, Train accuracy: 0.9954
+Val loss: 0.003884, Val accuracy: 0.9939, Val F1: 0.9938, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_04/model.pth 
+
+[INFO] EPOCH: 6/10
+Train loss: 0.007724, Train accuracy: 0.9893
+Val loss: 0.004398, Val accuracy: 0.9939, Val F1: 0.9937, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_05/model.pth 
+
+[INFO] EPOCH: 7/10
+Train loss: 0.006498, Train accuracy: 0.9893
+Val loss: 0.001755, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_06/model.pth 
+
+[INFO] EPOCH: 8/10
+Train loss: 0.002819, Train accuracy: 0.9954
+Val loss: 0.001211, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_07/model.pth 
+
+[INFO] EPOCH: 9/10
+Train loss: 0.012501, Train accuracy: 0.9786
+Val loss: 0.001839, Val accuracy: 0.9939, Val F1: 0.9938, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_08/model.pth 
+
+[INFO] EPOCH: 10/10
+Train loss: 0.004837, Train accuracy: 0.9939
+Val loss: 0.001607, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_09/model.pth 
+
+[INFO] total time taken to train the model: 193.49s 
+
+Finished Training 
+
+[INFO] Saving model... 
+
+[INFO] Selecting best epoch...
+
+Best epoch starting with 0: 9
+Best epoch starting with 1: 10
+[INFO] testing network...
+
+[INFO] Displaying test metrics & results (single model)...
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       103
+           1       0.99      1.00      1.00       102
+
+    accuracy                           1.00       205
+   macro avg       1.00      1.00      1.00       205
+weighted avg       1.00      1.00      1.00       205
+
+TEST METRICS: {'test_acc': 0.9951219512195122, 'test_f1': 0.9951219512195122, 'test_precision': 0.9902912621359223, 'test_recall': 1.0, 'test_auc': 0.9999048162954502, 'test_sn': 1.0, 'test_sp': np.float64(0.9902912621359223)}
+
+
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_04
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_02
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_09
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_05
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_08
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_07
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_03
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_00
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_01
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_3/epoch_06
+[INFO] initializing the model...
+	 Model: LightTBNet_4blocks
+	 Optimizer: Adam
+	 Loss function: FocalLoss
+	 Fold: 4
+Pytorch-Summary failed. Please check if anything is wrong. Please note that for DenseNet121, some errors may occur.
+[INFO] training the network...
+[INFO] EPOCH: 1/10
+Train loss: 0.055733, Train accuracy: 0.9237
+Val loss: 0.009700, Val accuracy: 0.9755, Val F1: 0.9740, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_00/model.pth 
+
+[INFO] EPOCH: 2/10
+Train loss: 0.015947, Train accuracy: 0.9786
+Val loss: 0.006395, Val accuracy: 1.0000, Val F1: 1.0000, Val AUC: 0.9998
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_01/model.pth 
+
+[INFO] EPOCH: 3/10
+Train loss: 0.008324, Train accuracy: 0.9893
+Val loss: 0.007100, Val accuracy: 0.9816, Val F1: 0.9806, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_02/model.pth 
+
+[INFO] EPOCH: 4/10
+Train loss: 0.012330, Train accuracy: 0.9832
+Val loss: 0.005433, Val accuracy: 0.9939, Val F1: 0.9936, Val AUC: 0.9998
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_03/model.pth 
+
+[INFO] EPOCH: 5/10
+Train loss: 0.005678, Train accuracy: 0.9908
+Val loss: 0.002890, Val accuracy: 0.9939, Val F1: 0.9936, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_04/model.pth 
+
+[INFO] EPOCH: 6/10
+Train loss: 0.009218, Train accuracy: 0.9893
+Val loss: 0.012054, Val accuracy: 0.9877, Val F1: 0.9872, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_05/model.pth 
+
+[INFO] EPOCH: 7/10
+Train loss: 0.003843, Train accuracy: 0.9954
+Val loss: 0.004843, Val accuracy: 0.9939, Val F1: 0.9936, Val AUC: 0.9998
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_06/model.pth 
+
+[INFO] EPOCH: 8/10
+Train loss: 0.001038, Train accuracy: 1.0000
+Val loss: 0.016100, Val accuracy: 0.9877, Val F1: 0.9872, Val AUC: 0.9998
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_07/model.pth 
+
+[INFO] EPOCH: 9/10
+Train loss: 0.000430, Train accuracy: 1.0000
+Val loss: 0.007242, Val accuracy: 0.9939, Val F1: 0.9936, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_08/model.pth 
+
+[INFO] EPOCH: 10/10
+Train loss: 0.011796, Train accuracy: 0.9863
+Val loss: 0.017585, Val accuracy: 0.9755, Val F1: 0.9740, Val AUC: 1.0000
+
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 1189
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 2994
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 374
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 286
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 263
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 387
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 436
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 351
+STREAM b'IHDR' 16 13
+STREAM b'sBIT' 41 4
+b'sBIT' 41 4 (unknown)
+STREAM b'pHYs' 57 9
+STREAM b'IDAT' 78 364
+[INFO] Saving model checkpoint at: ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_09/model.pth 
+
+[INFO] total time taken to train the model: 156.61s 
+
+Finished Training 
+
+[INFO] Saving model... 
+
+[INFO] Selecting best epoch...
+
+Best epoch starting with 0: 9
+Best epoch starting with 1: 10
+[INFO] testing network...
+
+[INFO] Displaying test metrics & results (single model)...
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       103
+           1       1.00      0.94      0.97       102
+
+    accuracy                           0.97       205
+   macro avg       0.97      0.97      0.97       205
+weighted avg       0.97      0.97      0.97       205
+
+TEST METRICS: {'test_acc': 0.9707317073170731, 'test_f1': 0.9696969696969697, 'test_precision': 1.0, 'test_recall': 0.9411764705882353, 'test_auc': 0.9996192651818009, 'test_sn': 0.9411764705882353, 'test_sp': np.float64(1.0)}
+
+
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_04
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_02
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_09
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_05
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_08
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_07
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_03
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_00
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_01
+Deleting... ./results/exp_21112025_212342/LightTBNet_4blocks/Adam/FocalLoss/fold_4/epoch_06

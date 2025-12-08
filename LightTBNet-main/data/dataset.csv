@@ -1,0 +1,1024 @@
+patient_id,age_yo,sex,filename,TB_class,split,fold_cv
+144,0,U,patient_144_age_0_U_TB.185.jpg,1,train,0
+489,0,U,patient_489_age_0_U_TB.510.jpg,1,train,3
+451,0,U,patient_451_age_0_U_TB.425.jpg,1,train,1
+344,0,U,patient_344_age_0_U_TB.229.jpg,1,train,1
+252,0,U,patient_252_age_0_U_TB.128.jpg,1,train,2
+354,0,U,patient_354_age_0_U_TB.281.jpg,1,train,4
+146,0,U,patient_146_age_0_U_TB.365.jpg,1,train,1
+227,0,U,patient_227_age_0_U_TB.186.jpg,1,train,2
+408,0,U,patient_408_age_0_U_TB.496.jpg,1,train,4
+117,0,U,patient_117_age_0_U_TB.191.jpg,1,train,4
+189,0,U,patient_189_age_0_U_TB.190.jpg,1,train,1
+19,0,U,patient_019_age_0_U_TB.268.jpg,1,test,-1
+462,0,U,patient_462_age_0_U_TB.375.jpg,1,test,-1
+261,0,U,patient_261_age_0_U_TB.234.jpg,1,train,1
+109,0,U,patient_109_age_0_U_TB.149.jpg,1,train,2
+221,0,U,patient_221_age_0_U_TB.370.jpg,1,train,0
+209,0,U,patient_209_age_0_U_TB.170.jpg,1,train,4
+416,0,U,patient_416_age_0_U_TB.447.jpg,1,train,1
+171,0,U,patient_171_age_0_U_TB.508.jpg,1,test,-1
+309,0,U,patient_309_age_0_U_TB.298.jpg,1,train,3
+106,0,U,patient_106_age_0_U_TB.109.jpg,1,train,0
+485,0,U,patient_485_age_0_U_TB.363.jpg,1,train,0
+191,0,U,patient_191_age_0_U_TB.498.jpg,1,train,4
+393,0,U,patient_393_age_0_U_TB.34.jpg,1,train,2
+153,0,U,patient_153_age_0_U_TB.272.jpg,1,test,-1
+155,0,U,patient_155_age_0_U_TB.26.jpg,1,train,2
+167,0,U,patient_167_age_0_U_TB.449.jpg,1,train,0
+203,0,U,patient_203_age_0_U_TB.67.jpg,1,train,1
+44,0,U,patient_044_age_0_U_TB.392.jpg,1,train,1
+388,0,U,patient_388_age_0_U_TB.123.jpg,1,train,1
+176,0,U,patient_176_age_0_U_TB.310.jpg,1,train,3
+308,0,U,patient_308_age_0_U_TB.197.jpg,1,train,2
+478,0,U,patient_478_age_0_U_TB.289.jpg,1,train,2
+444,0,U,patient_444_age_0_U_TB.14.jpg,1,train,0
+460,0,U,patient_460_age_0_U_TB.114.jpg,1,test,-1
+208,0,U,patient_208_age_0_U_TB.104.jpg,1,test,-1
+299,0,U,patient_299_age_0_U_TB.77.jpg,1,test,-1
+367,0,U,patient_367_age_0_U_TB.183.jpg,1,train,4
+432,0,U,patient_432_age_0_U_TB.188.jpg,1,test,-1
+58,0,U,patient_058_age_0_U_TB.127.jpg,1,train,2
+473,0,U,patient_473_age_0_U_TB.465.jpg,1,train,2
+441,0,U,patient_441_age_0_U_TB.256.jpg,1,test,-1
+258,0,U,patient_258_age_0_U_TB.151.jpg,1,test,-1
+347,0,U,patient_347_age_0_U_TB.111.jpg,1,test,-1
+129,0,U,patient_129_age_0_U_TB.446.jpg,1,train,3
+103,0,U,patient_103_age_0_U_TB.300.jpg,1,train,0
+315,0,U,patient_315_age_0_U_TB.60.jpg,1,train,4
+422,0,U,patient_422_age_0_U_TB.160.jpg,1,train,3
+6,0,U,patient_006_age_0_U_TB.402.jpg,1,train,2
+331,0,U,patient_331_age_0_U_TB.400.jpg,1,train,3
+73,0,U,patient_073_age_0_U_TB.422.jpg,1,train,2
+447,0,U,patient_447_age_0_U_TB.456.jpg,1,test,-1
+112,0,U,patient_112_age_0_U_TB.56.jpg,1,test,-1
+93,0,U,patient_093_age_0_U_TB.462.jpg,1,train,4
+183,0,U,patient_183_age_0_U_TB.492.jpg,1,train,3
+437,0,U,patient_437_age_0_U_TB.261.jpg,1,train,2
+12,0,U,patient_012_age_0_U_TB.177.jpg,1,test,-1
+250,0,U,patient_250_age_0_U_TB.416.jpg,1,train,2
+492,0,U,patient_492_age_0_U_TB.484.jpg,1,train,1
+207,0,U,patient_207_age_0_U_TB.182.jpg,1,train,0
+131,0,U,patient_131_age_0_U_TB.48.jpg,1,train,0
+286,0,U,patient_286_age_0_U_TB.443.jpg,1,test,-1
+170,0,U,patient_170_age_0_U_TB.511.jpg,1,train,0
+139,0,U,patient_139_age_0_U_TB.497.jpg,1,train,3
+404,0,U,patient_404_age_0_U_TB.333.jpg,1,train,4
+2,0,U,patient_002_age_0_U_TB.27.jpg,1,train,4
+64,0,U,patient_064_age_0_U_TB.236.jpg,1,train,0
+199,0,U,patient_199_age_0_U_TB.251.jpg,1,train,4
+224,0,U,patient_224_age_0_U_TB.252.jpg,1,test,-1
+467,0,U,patient_467_age_0_U_TB.317.jpg,1,train,0
+281,0,U,patient_281_age_0_U_TB.396.jpg,1,train,1
+178,0,U,patient_178_age_0_U_TB.244.jpg,1,train,0
+363,0,U,patient_363_age_0_U_TB.347.jpg,1,train,0
+40,0,U,patient_040_age_0_U_TB.345.jpg,1,train,3
+318,0,U,patient_318_age_0_U_TB.189.jpg,1,test,-1
+133,0,U,patient_133_age_0_U_TB.473.jpg,1,test,-1
+184,0,U,patient_184_age_0_U_TB.451.jpg,1,train,2
+81,0,U,patient_081_age_0_U_TB.284.jpg,1,train,4
+159,0,U,patient_159_age_0_U_TB.513.jpg,1,train,0
+240,0,U,patient_240_age_0_U_TB.382.jpg,1,train,0
+75,0,U,patient_075_age_0_U_TB.45.jpg,1,train,4
+157,0,U,patient_157_age_0_U_TB.466.jpg,1,train,3
+475,0,U,patient_475_age_0_U_TB.54.jpg,1,train,4
+274,0,U,patient_274_age_0_U_TB.257.jpg,1,test,-1
+499,0,U,patient_499_age_0_U_TB.412.jpg,1,train,1
+372,0,U,patient_372_age_0_U_TB.357.jpg,1,train,1
+386,0,U,patient_386_age_0_U_TB.417.jpg,1,train,3
+71,0,U,patient_071_age_0_U_TB.505.jpg,1,train,3
+37,0,U,patient_037_age_0_U_TB.161.jpg,1,train,4
+217,0,U,patient_217_age_0_U_TB.227.jpg,1,test,-1
+506,0,U,patient_506_age_0_U_TB.421.jpg,1,train,0
+154,0,U,patient_154_age_0_U_TB.483.jpg,1,train,4
+218,0,U,patient_218_age_0_U_TB.332.jpg,1,test,-1
+122,0,U,patient_122_age_0_U_TB.176.jpg,1,train,4
+332,0,U,patient_332_age_0_U_TB.323.jpg,1,test,-1
+143,0,U,patient_143_age_0_U_TB.66.jpg,1,test,-1
+297,0,U,patient_297_age_0_U_TB.264.jpg,1,train,1
+119,0,U,patient_119_age_0_U_TB.441.jpg,1,train,1
+403,0,U,patient_403_age_0_U_TB.134.jpg,1,test,-1
+246,0,U,patient_246_age_0_U_TB.38.jpg,1,test,-1
+197,0,U,patient_197_age_0_U_TB.318.jpg,1,train,0
+505,0,U,patient_505_age_0_U_TB.40.jpg,1,train,1
+234,0,U,patient_234_age_0_U_TB.271.jpg,1,train,1
+82,0,U,patient_082_age_0_U_TB.262.jpg,1,train,3
+135,0,U,patient_135_age_0_U_TB.210.jpg,1,test,-1
+414,0,U,patient_414_age_0_U_TB.358.jpg,1,train,2
+150,0,U,patient_150_age_0_U_TB.194.jpg,1,train,2
+36,0,U,patient_036_age_0_U_TB.214.jpg,1,train,2
+312,0,U,patient_312_age_0_U_TB.342.jpg,1,test,-1
+450,0,U,patient_450_age_0_U_TB.162.jpg,1,train,3
+174,0,U,patient_174_age_0_U_TB.167.jpg,1,train,4
+195,0,U,patient_195_age_0_U_TB.290.jpg,1,train,0
+329,0,U,patient_329_age_0_U_TB.335.jpg,1,train,1
+196,0,U,patient_196_age_0_U_TB.418.jpg,1,test,-1
+361,0,U,patient_361_age_0_U_TB.327.jpg,1,test,-1
+24,0,U,patient_024_age_0_U_TB.62.jpg,1,train,1
+284,0,U,patient_284_age_0_U_TB.209.jpg,1,train,1
+461,0,U,patient_461_age_0_U_TB.249.jpg,1,train,2
+266,0,U,patient_266_age_0_U_TB.444.jpg,1,train,3
+291,0,U,patient_291_age_0_U_TB.403.jpg,1,train,1
+289,0,U,patient_289_age_0_U_TB.107.jpg,1,train,4
+198,0,U,patient_198_age_0_U_TB.224.jpg,1,train,3
+38,0,U,patient_038_age_0_U_TB.407.jpg,1,train,0
+74,0,U,patient_074_age_0_U_TB.12.jpg,1,train,1
+353,0,U,patient_353_age_0_U_TB.157.jpg,1,train,4
+377,0,U,patient_377_age_0_U_TB.174.jpg,1,train,2
+210,0,U,patient_210_age_0_U_TB.380.jpg,1,train,0
+249,0,U,patient_249_age_0_U_TB.253.jpg,1,train,3
+61,0,U,patient_061_age_0_U_TB.259.jpg,1,train,1
+288,0,U,patient_288_age_0_U_TB.142.jpg,1,train,1
+65,0,U,patient_065_age_0_U_TB.147.jpg,1,train,4
+83,0,U,patient_083_age_0_U_TB.504.jpg,1,train,3
+175,0,U,patient_175_age_0_U_TB.59.jpg,1,train,4
+200,0,U,patient_200_age_0_U_TB.235.jpg,1,train,3
+116,0,U,patient_116_age_0_U_TB.178.jpg,1,train,1
+9,0,U,patient_009_age_0_U_TB.277.jpg,1,train,0
+440,0,U,patient_440_age_0_U_TB.433.jpg,1,train,3
+301,0,U,patient_301_age_0_U_TB.43.jpg,1,train,4
+324,0,U,patient_324_age_0_U_TB.86.jpg,1,train,2
+70,0,U,patient_070_age_0_U_TB.102.jpg,1,train,3
+336,0,U,patient_336_age_0_U_TB.339.jpg,1,train,1
+339,0,U,patient_339_age_0_U_TB.276.jpg,1,train,4
+304,0,U,patient_304_age_0_U_TB.352.jpg,1,train,4
+495,0,U,patient_495_age_0_U_TB.428.jpg,1,test,-1
+307,0,U,patient_307_age_0_U_TB.24.jpg,1,train,2
+114,0,U,patient_114_age_0_U_TB.282.jpg,1,train,4
+102,0,U,patient_102_age_0_U_TB.304.jpg,1,train,2
+230,0,U,patient_230_age_0_U_TB.423.jpg,1,train,3
+424,0,U,patient_424_age_0_U_TB.187.jpg,1,train,4
+321,0,U,patient_321_age_0_U_TB.205.jpg,1,train,4
+123,0,U,patient_123_age_0_U_TB.280.jpg,1,test,-1
+79,0,U,patient_079_age_0_U_TB.101.jpg,1,test,-1
+47,0,U,patient_047_age_0_U_TB.477.jpg,1,train,3
+214,0,U,patient_214_age_0_U_TB.442.jpg,1,train,0
+509,0,U,patient_509_age_0_U_TB.36.jpg,1,train,1
+268,0,U,patient_268_age_0_U_TB.458.jpg,1,train,1
+187,0,U,patient_187_age_0_U_TB.164.jpg,1,train,0
+411,0,U,patient_411_age_0_U_TB.263.jpg,1,train,2
+484,0,U,patient_484_age_0_U_TB.381.jpg,1,train,3
+63,0,U,patient_063_age_0_U_TB.148.jpg,1,train,3
+317,0,U,patient_317_age_0_U_TB.401.jpg,1,train,2
+378,0,U,patient_378_age_0_U_TB.20.jpg,1,train,3
+335,0,U,patient_335_age_0_U_TB.286.jpg,1,train,3
+494,0,U,patient_494_age_0_U_TB.324.jpg,1,test,-1
+370,0,U,patient_370_age_0_U_TB.143.jpg,1,train,2
+145,0,U,patient_145_age_0_U_TB.222.jpg,1,train,0
+141,0,U,patient_141_age_0_U_TB.315.jpg,1,train,3
+295,0,U,patient_295_age_0_U_TB.319.jpg,1,test,-1
+238,0,U,patient_238_age_0_U_TB.420.jpg,1,train,1
+101,0,U,patient_101_age_0_U_TB.94.jpg,1,train,1
+346,0,U,patient_346_age_0_U_TB.69.jpg,1,train,0
+381,0,U,patient_381_age_0_U_TB.19.jpg,1,train,1
+92,0,U,patient_092_age_0_U_TB.430.jpg,1,train,1
+357,0,U,patient_357_age_0_U_TB.202.jpg,1,train,2
+260,0,U,patient_260_age_0_U_TB.409.jpg,1,train,1
+407,0,U,patient_407_age_0_U_TB.95.jpg,1,train,0
+5,0,U,patient_005_age_0_U_TB.121.jpg,1,test,-1
+7,0,U,patient_007_age_0_U_TB.312.jpg,1,train,1
+419,0,U,patient_419_age_0_U_TB.64.jpg,1,train,3
+194,0,U,patient_194_age_0_U_TB.152.jpg,1,train,4
+147,0,U,patient_147_age_0_U_TB.88.jpg,1,test,-1
+293,0,U,patient_293_age_0_U_TB.419.jpg,1,train,1
+472,0,U,patient_472_age_0_U_TB.426.jpg,1,test,-1
+371,0,U,patient_371_age_0_U_TB.475.jpg,1,train,2
+433,0,U,patient_433_age_0_U_TB.479.jpg,1,train,0
+292,0,U,patient_292_age_0_U_TB.283.jpg,1,test,-1
+111,0,U,patient_111_age_0_U_TB.115.jpg,1,test,-1
+91,0,U,patient_091_age_0_U_TB.181.jpg,1,train,1
+349,0,U,patient_349_age_0_U_TB.354.jpg,1,train,1
+220,0,U,patient_220_age_0_U_TB.431.jpg,1,test,-1
+108,0,U,patient_108_age_0_U_TB.90.jpg,1,train,4
+398,0,U,patient_398_age_0_U_TB.169.jpg,1,test,-1
+105,0,U,patient_105_age_0_U_TB.364.jpg,1,train,0
+294,0,U,patient_294_age_0_U_TB.71.jpg,1,train,2
+76,0,U,patient_076_age_0_U_TB.193.jpg,1,train,3
+498,0,U,patient_498_age_0_U_TB.368.jpg,1,test,-1
+219,0,U,patient_219_age_0_U_TB.273.jpg,1,train,0
+452,0,U,patient_452_age_0_U_TB.397.jpg,1,train,4
+30,0,U,patient_030_age_0_U_TB.196.jpg,1,train,4
+39,0,U,patient_039_age_0_U_TB.61.jpg,1,train,4
+232,0,U,patient_232_age_0_U_TB.494.jpg,1,train,2
+280,0,U,patient_280_age_0_U_TB.245.jpg,1,train,0
+458,0,U,patient_458_age_0_U_TB.515.jpg,1,train,2
+487,0,U,patient_487_age_0_U_TB.98.jpg,1,train,2
+110,0,U,patient_110_age_0_U_TB.199.jpg,1,train,3
+439,0,U,patient_439_age_0_U_TB.448.jpg,1,test,-1
+501,0,U,patient_501_age_0_U_TB.471.jpg,1,train,4
+385,0,U,patient_385_age_0_U_TB.369.jpg,1,train,0
+96,0,U,patient_096_age_0_U_TB.166.jpg,1,train,1
+287,0,U,patient_287_age_0_U_TB.359.jpg,1,train,3
+66,0,U,patient_066_age_0_U_TB.2.jpg,1,train,4
+156,0,U,patient_156_age_0_U_TB.221.jpg,1,train,2
+322,0,U,patient_322_age_0_U_TB.213.jpg,1,train,0
+352,0,U,patient_352_age_0_U_TB.411.jpg,1,train,3
+163,0,U,patient_163_age_0_U_TB.228.jpg,1,test,-1
+20,0,U,patient_020_age_0_U_TB.344.jpg,1,train,2
+244,0,U,patient_244_age_0_U_TB.351.jpg,1,test,-1
+267,0,U,patient_267_age_0_U_TB.480.jpg,1,train,0
+466,0,U,patient_466_age_0_U_TB.73.jpg,1,train,0
+507,0,U,patient_507_age_0_U_TB.404.jpg,1,train,3
+477,0,U,patient_477_age_0_U_TB.78.jpg,1,train,0
+181,0,U,patient_181_age_0_U_TB.435.jpg,1,train,2
+13,0,U,patient_013_age_0_U_TB.201.jpg,1,test,-1
+97,0,U,patient_097_age_0_U_TB.413.jpg,1,test,-1
+302,0,U,patient_302_age_0_U_TB.28.jpg,1,train,3
+87,0,U,patient_087_age_0_U_TB.237.jpg,1,train,4
+282,0,U,patient_282_age_0_U_TB.440.jpg,1,test,-1
+125,0,U,patient_125_age_0_U_TB.217.jpg,1,train,2
+380,0,U,patient_380_age_0_U_TB.215.jpg,1,train,0
+384,0,U,patient_384_age_0_U_TB.37.jpg,1,train,0
+213,0,U,patient_213_age_0_U_TB.391.jpg,1,train,1
+327,0,U,patient_327_age_0_U_TB.334.jpg,1,train,3
+428,0,U,patient_428_age_0_U_TB.108.jpg,1,test,-1
+320,0,U,patient_320_age_0_U_TB.22.jpg,1,train,4
+316,0,U,patient_316_age_0_U_TB.136.jpg,1,train,3
+202,0,U,patient_202_age_0_U_TB.18.jpg,1,train,2
+158,0,U,patient_158_age_0_U_TB.173.jpg,1,train,4
+137,0,U,patient_137_age_0_U_TB.355.jpg,1,train,1
+130,0,U,patient_130_age_0_U_TB.131.jpg,1,train,1
+334,0,U,patient_334_age_0_U_TB.226.jpg,1,train,2
+57,0,U,patient_057_age_0_U_TB.155.jpg,1,train,3
+464,0,U,patient_464_age_0_U_TB.503.jpg,1,test,-1
+4,0,U,patient_004_age_0_U_TB.124.jpg,1,train,4
+306,0,U,patient_306_age_0_U_TB.415.jpg,1,train,4
+59,0,U,patient_059_age_0_U_TB.218.jpg,1,train,4
+366,0,U,patient_366_age_0_U_TB.265.jpg,1,train,2
+89,0,U,patient_089_age_0_U_TB.470.jpg,1,train,0
+121,0,U,patient_121_age_0_U_TB.55.jpg,1,train,1
+271,0,U,patient_271_age_0_U_TB.16.jpg,1,test,-1
+409,0,U,patient_409_age_0_U_TB.72.jpg,1,train,4
+179,0,U,patient_179_age_0_U_TB.495.jpg,1,train,4
+383,0,U,patient_383_age_0_U_TB.163.jpg,1,train,3
+434,0,U,patient_434_age_0_U_TB.293.jpg,1,test,-1
+188,0,U,patient_188_age_0_U_TB.49.jpg,1,train,0
+94,0,U,patient_094_age_0_U_TB.260.jpg,1,train,2
+305,0,U,patient_305_age_0_U_TB.198.jpg,1,train,3
+425,0,U,patient_425_age_0_U_TB.325.jpg,1,train,4
+468,0,U,patient_468_age_0_U_TB.179.jpg,1,train,2
+52,0,U,patient_052_age_0_U_TB.81.jpg,1,train,1
+215,0,U,patient_215_age_0_U_TB.243.jpg,1,train,2
+338,0,U,patient_338_age_0_U_TB.499.jpg,1,train,4
+85,0,U,patient_085_age_0_U_TB.386.jpg,1,train,3
+160,0,U,patient_160_age_0_U_TB.85.jpg,1,train,3
+34,0,U,patient_034_age_0_U_TB.267.jpg,1,test,-1
+493,0,U,patient_493_age_0_U_TB.113.jpg,1,test,-1
+300,0,U,patient_300_age_0_U_TB.241.jpg,1,train,2
+455,0,U,patient_455_age_0_U_TB.500.jpg,1,train,3
+364,0,U,patient_364_age_0_U_TB.341.jpg,1,test,-1
+290,0,U,patient_290_age_0_U_TB.399.jpg,1,train,4
+456,0,U,patient_456_age_0_U_TB.3.jpg,1,train,0
+343,0,U,patient_343_age_0_U_TB.84.jpg,1,train,0
+107,0,U,patient_107_age_0_U_TB.216.jpg,1,train,0
+62,0,U,patient_062_age_0_U_TB.322.jpg,1,test,-1
+152,0,U,patient_152_age_0_U_TB.80.jpg,1,train,0
+229,0,U,patient_229_age_0_U_TB.266.jpg,1,train,2
+503,0,U,patient_503_age_0_U_TB.285.jpg,1,train,3
+469,0,U,patient_469_age_0_U_TB.158.jpg,1,test,-1
+454,0,U,patient_454_age_0_U_TB.140.jpg,1,train,0
+272,0,U,patient_272_age_0_U_TB.453.jpg,1,test,-1
+397,0,U,patient_397_age_0_U_TB.4.jpg,1,train,4
+54,0,U,patient_054_age_0_U_TB.514.jpg,1,train,0
+253,0,U,patient_253_age_0_U_TB.507.jpg,1,train,2
+283,0,U,patient_283_age_0_U_TB.314.jpg,1,train,1
+248,0,U,patient_248_age_0_U_TB.336.jpg,1,test,-1
+190,0,U,patient_190_age_0_U_TB.242.jpg,1,test,-1
+436,0,U,patient_436_age_0_U_TB.146.jpg,1,test,-1
+448,0,U,patient_448_age_0_U_TB.116.jpg,1,train,0
+500,0,U,patient_500_age_0_U_TB.383.jpg,1,train,1
+67,0,U,patient_067_age_0_U_TB.287.jpg,1,train,0
+262,0,U,patient_262_age_0_U_TB.120.jpg,1,train,3
+277,0,U,patient_277_age_0_U_TB.427.jpg,1,train,0
+275,0,U,patient_275_age_0_U_TB.274.jpg,1,train,1
+502,0,U,patient_502_age_0_U_TB.487.jpg,1,train,3
+362,0,U,patient_362_age_0_U_TB.387.jpg,1,train,0
+55,0,U,patient_055_age_0_U_TB.374.jpg,1,train,3
+3,0,U,patient_003_age_0_U_TB.278.jpg,1,train,1
+391,0,U,patient_391_age_0_U_TB.305.jpg,1,train,4
+86,0,U,patient_086_age_0_U_TB.464.jpg,1,train,3
+166,0,U,patient_166_age_0_U_TB.376.jpg,1,train,4
+471,0,U,patient_471_age_0_U_TB.254.jpg,1,train,1
+42,0,U,patient_042_age_0_U_TB.388.jpg,1,train,0
+239,0,U,patient_239_age_0_U_TB.488.jpg,1,test,-1
+50,0,U,patient_050_age_0_U_TB.486.jpg,1,train,2
+483,0,U,patient_483_age_0_U_TB.204.jpg,1,train,1
+51,0,U,patient_051_age_0_U_TB.337.jpg,1,train,1
+90,0,U,patient_090_age_0_U_TB.219.jpg,1,train,2
+115,0,U,patient_115_age_0_U_TB.31.jpg,1,train,4
+387,0,U,patient_387_age_0_U_TB.119.jpg,1,train,3
+140,0,U,patient_140_age_0_U_TB.58.jpg,1,train,1
+279,0,U,patient_279_age_0_U_TB.223.jpg,1,train,0
+69,0,U,patient_069_age_0_U_TB.320.jpg,1,train,1
+369,0,U,patient_369_age_0_U_TB.41.jpg,1,train,0
+256,0,U,patient_256_age_0_U_TB.32.jpg,1,train,3
+351,0,U,patient_351_age_0_U_TB.110.jpg,1,test,-1
+337,0,U,patient_337_age_0_U_TB.247.jpg,1,train,0
+149,0,U,patient_149_age_0_U_TB.207.jpg,1,train,2
+15,0,U,patient_015_age_0_U_TB.83.jpg,1,train,0
+192,0,U,patient_192_age_0_U_TB.175.jpg,1,train,2
+446,0,U,patient_446_age_0_U_TB.366.jpg,1,train,4
+180,0,U,patient_180_age_0_U_TB.390.jpg,1,train,1
+142,0,U,patient_142_age_0_U_TB.239.jpg,1,train,2
+68,0,U,patient_068_age_0_U_TB.117.jpg,1,train,0
+330,0,U,patient_330_age_0_U_TB.57.jpg,1,train,3
+389,0,U,patient_389_age_0_U_TB.130.jpg,1,train,4
+21,0,U,patient_021_age_0_U_TB.463.jpg,1,train,4
+49,0,U,patient_049_age_0_U_TB.133.jpg,1,train,0
+233,0,U,patient_233_age_0_U_TB.330.jpg,1,train,1
+53,0,U,patient_053_age_0_U_TB.65.jpg,1,train,1
+421,0,U,patient_421_age_0_U_TB.301.jpg,1,train,1
+278,0,U,patient_278_age_0_U_TB.21.jpg,1,test,-1
+348,0,U,patient_348_age_0_U_TB.432.jpg,1,train,2
+333,0,U,patient_333_age_0_U_TB.220.jpg,1,train,0
+399,0,U,patient_399_age_0_U_TB.129.jpg,1,train,3
+360,0,U,patient_360_age_0_U_TB.414.jpg,1,train,0
+325,0,U,patient_325_age_0_U_TB.125.jpg,1,train,2
+251,0,U,patient_251_age_0_U_TB.450.jpg,1,train,0
+48,0,U,patient_048_age_0_U_TB.126.jpg,1,test,-1
+417,0,U,patient_417_age_0_U_TB.248.jpg,1,train,0
+222,0,U,patient_222_age_0_U_TB.105.jpg,1,test,-1
+177,0,U,patient_177_age_0_U_TB.211.jpg,1,train,3
+1,0,U,patient_001_age_0_U_TB.195.jpg,1,train,1
+476,0,U,patient_476_age_0_U_TB.246.jpg,1,test,-1
+18,0,U,patient_018_age_0_U_TB.350.jpg,1,train,3
+247,0,U,patient_247_age_0_U_TB.33.jpg,1,train,1
+237,0,U,patient_237_age_0_U_TB.29.jpg,1,train,0
+255,0,U,patient_255_age_0_U_TB.445.jpg,1,train,1
+435,0,U,patient_435_age_0_U_TB.306.jpg,1,train,1
+413,0,U,patient_413_age_0_U_TB.307.jpg,1,train,4
+394,0,U,patient_394_age_0_U_TB.493.jpg,1,train,0
+412,0,U,patient_412_age_0_U_TB.171.jpg,1,train,4
+350,0,U,patient_350_age_0_U_TB.212.jpg,1,train,3
+415,0,U,patient_415_age_0_U_TB.17.jpg,1,train,0
+298,0,U,patient_298_age_0_U_TB.353.jpg,1,train,1
+340,0,U,patient_340_age_0_U_TB.74.jpg,1,train,0
+206,0,U,patient_206_age_0_U_TB.96.jpg,1,test,-1
+148,0,U,patient_148_age_0_U_TB.122.jpg,1,train,0
+273,0,U,patient_273_age_0_U_TB.481.jpg,1,test,-1
+482,0,U,patient_482_age_0_U_TB.233.jpg,1,train,3
+32,0,U,patient_032_age_0_U_TB.145.jpg,1,train,1
+104,0,U,patient_104_age_0_U_TB.192.jpg,1,train,1
+355,0,U,patient_355_age_0_U_TB.292.jpg,1,test,-1
+480,0,U,patient_480_age_0_U_TB.138.jpg,1,train,3
+226,0,U,patient_226_age_0_U_TB.408.jpg,1,train,3
+8,0,U,patient_008_age_0_U_TB.460.jpg,1,train,3
+243,0,U,patient_243_age_0_U_TB.25.jpg,1,train,2
+504,0,U,patient_504_age_0_U_TB.362.jpg,1,train,2
+345,0,U,patient_345_age_0_U_TB.489.jpg,1,test,-1
+445,0,U,patient_445_age_0_U_TB.439.jpg,1,test,-1
+427,0,U,patient_427_age_0_U_TB.172.jpg,1,test,-1
+442,0,U,patient_442_age_0_U_TB.316.jpg,1,train,1
+43,0,U,patient_043_age_0_U_TB.328.jpg,1,train,1
+463,0,U,patient_463_age_0_U_TB.455.jpg,1,train,2
+254,0,U,patient_254_age_0_U_TB.288.jpg,1,test,-1
+27,0,U,patient_027_age_0_U_TB.482.jpg,1,train,1
+241,0,U,patient_241_age_0_U_TB.93.jpg,1,train,4
+486,0,U,patient_486_age_0_U_TB.76.jpg,1,test,-1
+45,0,U,patient_045_age_0_U_TB.153.jpg,1,train,1
+314,0,U,patient_314_age_0_U_TB.238.jpg,1,train,3
+151,0,U,patient_151_age_0_U_TB.384.jpg,1,test,-1
+185,0,U,patient_185_age_0_U_TB.395.jpg,1,train,0
+379,0,U,patient_379_age_0_U_TB.240.jpg,1,train,0
+161,0,U,patient_161_age_0_U_TB.472.jpg,1,train,0
+134,0,U,patient_134_age_0_U_TB.291.jpg,1,train,0
+78,0,U,patient_078_age_0_U_TB.53.jpg,1,test,-1
+491,0,U,patient_491_age_0_U_TB.82.jpg,1,train,0
+457,0,U,patient_457_age_0_U_TB.52.jpg,1,test,-1
+56,0,U,patient_056_age_0_U_TB.385.jpg,1,train,2
+25,0,U,patient_025_age_0_U_TB.165.jpg,1,train,3
+488,0,U,patient_488_age_0_U_TB.1.jpg,1,train,2
+395,0,U,patient_395_age_0_U_TB.424.jpg,1,train,3
+165,0,U,patient_165_age_0_U_TB.346.jpg,1,test,-1
+98,0,U,patient_098_age_0_U_TB.97.jpg,1,train,2
+264,0,U,patient_264_age_0_U_TB.297.jpg,1,train,3
+10,0,U,patient_010_age_0_U_TB.150.jpg,1,test,-1
+406,0,U,patient_406_age_0_U_TB.501.jpg,1,train,4
+127,0,U,patient_127_age_0_U_TB.378.jpg,1,test,-1
+23,0,U,patient_023_age_0_U_TB.429.jpg,1,test,-1
+132,0,U,patient_132_age_0_U_TB.321.jpg,1,test,-1
+182,0,U,patient_182_age_0_U_TB.46.jpg,1,train,1
+474,0,U,patient_474_age_0_U_TB.410.jpg,1,train,1
+205,0,U,patient_205_age_0_U_TB.438.jpg,1,train,4
+356,0,U,patient_356_age_0_U_TB.156.jpg,1,train,3
+35,0,U,patient_035_age_0_U_TB.379.jpg,1,test,-1
+481,0,U,patient_481_age_0_U_TB.469.jpg,1,train,3
+193,0,U,patient_193_age_0_U_TB.139.jpg,1,train,2
+490,0,U,patient_490_age_0_U_TB.343.jpg,1,train,3
+420,0,U,patient_420_age_0_U_TB.200.jpg,1,train,0
+173,0,U,patient_173_age_0_U_TB.436.jpg,1,test,-1
+496,0,U,patient_496_age_0_U_TB.485.jpg,1,train,2
+508,0,U,patient_508_age_0_U_TB.468.jpg,1,test,-1
+33,0,U,patient_033_age_0_U_TB.87.jpg,1,train,3
+319,0,U,patient_319_age_0_U_TB.10.jpg,1,train,2
+186,0,U,patient_186_age_0_U_TB.23.jpg,1,test,-1
+497,0,U,patient_497_age_0_U_TB.184.jpg,1,train,4
+164,0,U,patient_164_age_0_U_TB.467.jpg,1,train,1
+80,0,U,patient_080_age_0_U_TB.361.jpg,1,train,2
+358,0,U,patient_358_age_0_U_TB.294.jpg,1,test,-1
+88,0,U,patient_088_age_0_U_TB.454.jpg,1,test,-1
+376,0,U,patient_376_age_0_U_TB.373.jpg,1,train,3
+410,0,U,patient_410_age_0_U_TB.6.jpg,1,test,-1
+28,0,U,patient_028_age_0_U_TB.63.jpg,1,train,1
+136,0,U,patient_136_age_0_U_TB.340.jpg,1,train,4
+418,0,U,patient_418_age_0_U_TB.141.jpg,1,train,0
+276,0,U,patient_276_age_0_U_TB.476.jpg,1,test,-1
+113,0,U,patient_113_age_0_U_TB.313.jpg,1,train,0
+14,0,U,patient_014_age_0_U_TB.308.jpg,1,train,2
+225,0,U,patient_225_age_0_U_TB.279.jpg,1,train,2
+390,0,U,patient_390_age_0_U_TB.203.jpg,1,train,0
+100,0,U,patient_100_age_0_U_TB.506.jpg,1,train,2
+212,0,U,patient_212_age_0_U_TB.44.jpg,1,train,4
+359,0,U,patient_359_age_0_U_TB.329.jpg,1,train,2
+263,0,U,patient_263_age_0_U_TB.68.jpg,1,train,0
+22,0,U,patient_022_age_0_U_TB.75.jpg,1,train,4
+296,0,U,patient_296_age_0_U_TB.92.jpg,1,train,2
+423,0,U,patient_423_age_0_U_TB.112.jpg,1,train,0
+257,0,U,patient_257_age_0_U_TB.168.jpg,1,test,-1
+328,0,U,patient_328_age_0_U_TB.232.jpg,1,train,1
+303,0,U,patient_303_age_0_U_TB.326.jpg,1,train,4
+374,0,U,patient_374_age_0_U_TB.154.jpg,1,train,3
+459,0,U,patient_459_age_0_U_TB.394.jpg,1,train,4
+236,0,U,patient_236_age_0_U_TB.135.jpg,1,train,2
+405,0,U,patient_405_age_0_U_TB.371.jpg,1,train,0
+162,0,U,patient_162_age_0_U_TB.299.jpg,1,train,4
+235,0,U,patient_235_age_0_U_TB.103.jpg,1,train,1
+341,0,U,patient_341_age_0_U_TB.309.jpg,1,train,3
+443,0,U,patient_443_age_0_U_TB.405.jpg,1,train,3
+60,0,U,patient_060_age_0_U_TB.70.jpg,1,train,2
+26,0,U,patient_026_age_0_U_TB.360.jpg,1,train,2
+211,0,U,patient_211_age_0_U_TB.295.jpg,1,train,2
+17,0,U,patient_017_age_0_U_TB.7.jpg,1,train,1
+453,0,U,patient_453_age_0_U_TB.79.jpg,1,train,3
+401,0,U,patient_401_age_0_U_TB.230.jpg,1,test,-1
+242,0,U,patient_242_age_0_U_TB.372.jpg,1,train,3
+311,0,U,patient_311_age_0_U_TB.461.jpg,1,train,2
+402,0,U,patient_402_age_0_U_TB.338.jpg,1,train,3
+126,0,U,patient_126_age_0_U_TB.389.jpg,1,test,-1
+216,0,U,patient_216_age_0_U_TB.296.jpg,1,test,-1
+124,0,U,patient_124_age_0_U_TB.275.jpg,1,test,-1
+269,0,U,patient_269_age_0_U_TB.100.jpg,1,train,2
+285,0,U,patient_285_age_0_U_TB.311.jpg,1,train,3
+77,0,U,patient_077_age_0_U_TB.231.jpg,1,test,-1
+201,0,U,patient_201_age_0_U_TB.137.jpg,1,train,1
+245,0,U,patient_245_age_0_U_TB.39.jpg,1,train,4
+265,0,U,patient_265_age_0_U_TB.437.jpg,1,train,2
+31,0,U,patient_031_age_0_U_TB.349.jpg,1,test,-1
+375,0,U,patient_375_age_0_U_TB.250.jpg,1,test,-1
+373,0,U,patient_373_age_0_U_TB.118.jpg,1,train,3
+41,0,U,patient_041_age_0_U_TB.512.jpg,1,train,1
+259,0,U,patient_259_age_0_U_TB.367.jpg,1,train,1
+368,0,U,patient_368_age_0_U_TB.89.jpg,1,train,0
+231,0,U,patient_231_age_0_U_TB.459.jpg,1,train,0
+479,0,U,patient_479_age_0_U_TB.398.jpg,1,train,2
+310,0,U,patient_310_age_0_U_TB.434.jpg,1,train,2
+270,0,U,patient_270_age_0_U_TB.11.jpg,1,train,0
+118,0,U,patient_118_age_0_U_TB.208.jpg,1,train,4
+172,0,U,patient_172_age_0_U_TB.348.jpg,1,test,-1
+365,0,U,patient_365_age_0_U_TB.331.jpg,1,train,4
+313,0,U,patient_313_age_0_U_TB.180.jpg,1,train,2
+99,0,U,patient_099_age_0_U_TB.255.jpg,1,train,4
+29,0,U,patient_029_age_0_U_TB.91.jpg,1,train,1
+84,0,U,patient_084_age_0_U_TB.356.jpg,1,train,4
+431,0,U,patient_431_age_0_U_TB.478.jpg,1,train,4
+95,0,U,patient_095_age_0_U_TB.502.jpg,1,train,1
+11,0,U,patient_011_age_0_U_TB.206.jpg,1,train,4
+46,0,U,patient_046_age_0_U_TB.393.jpg,1,train,4
+426,0,U,patient_426_age_0_U_TB.99.jpg,1,train,2
+120,0,U,patient_120_age_0_U_TB.303.jpg,1,train,4
+168,0,U,patient_168_age_0_U_TB.490.jpg,1,train,4
+396,0,U,patient_396_age_0_U_TB.269.jpg,1,train,4
+449,0,U,patient_449_age_0_U_TB.258.jpg,1,train,1
+169,0,U,patient_169_age_0_U_TB.377.jpg,1,train,0
+430,0,U,patient_430_age_0_U_TB.106.jpg,1,train,3
+16,0,U,patient_016_age_0_U_TB.159.jpg,1,test,-1
+382,0,U,patient_382_age_0_U_TB.457.jpg,1,train,4
+438,0,U,patient_438_age_0_U_TB.452.jpg,1,train,1
+223,0,U,patient_223_age_0_U_TB.491.jpg,1,train,4
+392,0,U,patient_392_age_0_U_TB.144.jpg,1,train,3
+128,0,U,patient_128_age_0_U_TB.406.jpg,1,train,0
+465,0,U,patient_465_age_0_U_TB.225.jpg,1,train,0
+228,0,U,patient_228_age_0_U_TB.270.jpg,1,train,0
+326,0,U,patient_326_age_0_U_TB.15.jpg,1,train,4
+204,0,U,patient_204_age_0_U_TB.509.jpg,1,train,3
+138,0,U,patient_138_age_0_U_TB.9.jpg,1,test,-1
+470,0,U,patient_470_age_0_U_TB.474.jpg,1,train,0
+72,0,U,patient_072_age_0_U_TB.302.jpg,1,train,1
+323,0,U,patient_323_age_0_U_TB.5.jpg,1,train,3
+429,0,U,patient_429_age_0_U_TB.47.jpg,1,train,2
+400,0,U,patient_400_age_0_U_TB.8.jpg,1,train,0
+342,0,U,patient_342_age_0_U_TB.132.jpg,1,train,0
+507,0,U,patient_507_age_0_U_others (184).jpg,0,train,4
+421,0,U,patient_421_age_0_U_others (12).jpg,0,test,-1
+285,0,U,patient_285_age_0_U_others (200).jpg,0,train,1
+162,0,U,patient_162_age_0_U_others (43).jpg,0,train,4
+282,0,U,patient_282_age_0_U_others (256).jpg,0,train,0
+184,0,U,patient_184_age_0_U_others (429).jpg,0,train,4
+68,0,U,patient_068_age_0_U_others (165).jpg,0,train,0
+459,0,U,patient_459_age_0_U_others (481).jpg,0,train,1
+385,0,U,patient_385_age_0_U_others (147).jpg,0,train,2
+106,0,U,patient_106_age_0_U_others (385).jpg,0,train,0
+482,0,U,patient_482_age_0_U_others (327).jpg,0,train,2
+264,0,U,patient_264_age_0_U_others (226).jpg,0,train,0
+348,0,U,patient_348_age_0_U_others (353).jpg,0,train,0
+179,0,U,patient_179_age_0_U_others (434).jpg,0,test,-1
+329,0,U,patient_329_age_0_U_others (236).jpg,0,train,2
+44,0,U,patient_044_age_0_U_others (476).jpg,0,train,2
+389,0,U,patient_389_age_0_U_others (36).jpg,0,train,4
+50,0,U,patient_050_age_0_U_others (137).jpg,0,train,4
+19,0,U,patient_019_age_0_U_others (126).jpg,0,train,0
+168,0,U,patient_168_age_0_U_others (237).jpg,0,train,2
+69,0,U,patient_069_age_0_U_others (172).jpg,0,test,-1
+122,0,U,patient_122_age_0_U_others (204).jpg,0,test,-1
+468,0,U,patient_468_age_0_U_others (93).jpg,0,train,3
+470,0,U,patient_470_age_0_U_others (387).jpg,0,train,1
+109,0,U,patient_109_age_0_U_others (135).jpg,0,train,2
+290,0,U,patient_290_age_0_U_others (134).jpg,0,train,2
+393,0,U,patient_393_age_0_U_others (182).jpg,0,train,1
+458,0,U,patient_458_age_0_U_others (41).jpg,0,train,4
+395,0,U,patient_395_age_0_U_others (370).jpg,0,train,1
+227,0,U,patient_227_age_0_U_others (393).jpg,0,train,2
+387,0,U,patient_387_age_0_U_others (354).jpg,0,train,3
+419,0,U,patient_419_age_0_U_others (319).jpg,0,train,1
+38,0,U,patient_038_age_0_U_others (493).jpg,0,train,2
+73,0,U,patient_073_age_0_U_others (65).jpg,0,train,3
+344,0,U,patient_344_age_0_U_others (169).jpg,0,test,-1
+397,0,U,patient_397_age_0_U_others (40).jpg,0,train,2
+11,0,U,patient_011_age_0_U_others (365).jpg,0,train,1
+314,0,U,patient_314_age_0_U_others (420).jpg,0,train,0
+236,0,U,patient_236_age_0_U_others (129).jpg,0,train,0
+70,0,U,patient_070_age_0_U_others (3).jpg,0,train,3
+283,0,U,patient_283_age_0_U_others (243).jpg,0,train,2
+124,0,U,patient_124_age_0_U_others (38).jpg,0,train,4
+207,0,U,patient_207_age_0_U_others (199).jpg,0,train,1
+405,0,U,patient_405_age_0_U_others (217).jpg,0,test,-1
+141,0,U,patient_141_age_0_U_others (252).jpg,0,train,2
+120,0,U,patient_120_age_0_U_others (342).jpg,0,train,1
+375,0,U,patient_375_age_0_U_others (375).jpg,0,train,3
+102,0,U,patient_102_age_0_U_others (349).jpg,0,train,1
+474,0,U,patient_474_age_0_U_others (238).jpg,0,test,-1
+40,0,U,patient_040_age_0_U_others (362).jpg,0,test,-1
+508,0,U,patient_508_age_0_U_others (220).jpg,0,test,-1
+92,0,U,patient_092_age_0_U_others (274).jpg,0,train,4
+494,0,U,patient_494_age_0_U_others (23).jpg,0,test,-1
+238,0,U,patient_238_age_0_U_others (386).jpg,0,test,-1
+123,0,U,patient_123_age_0_U_others (437).jpg,0,test,-1
+216,0,U,patient_216_age_0_U_others (313).jpg,0,train,1
+269,0,U,patient_269_age_0_U_others (116).jpg,0,train,4
+187,0,U,patient_187_age_0_U_others (51).jpg,0,train,4
+233,0,U,patient_233_age_0_U_others (1).jpg,0,test,-1
+305,0,U,patient_305_age_0_U_others (91).jpg,0,train,1
+16,0,U,patient_016_age_0_U_others (484).jpg,0,train,0
+304,0,U,patient_304_age_0_U_others (168).jpg,0,train,2
+191,0,U,patient_191_age_0_U_others (71).jpg,0,train,2
+434,0,U,patient_434_age_0_U_others (378).jpg,0,train,0
+426,0,U,patient_426_age_0_U_others (401).jpg,0,train,0
+220,0,U,patient_220_age_0_U_others (106).jpg,0,train,0
+325,0,U,patient_325_age_0_U_others (205).jpg,0,train,1
+81,0,U,patient_081_age_0_U_others (138).jpg,0,train,4
+65,0,U,patient_065_age_0_U_others (59).jpg,0,train,3
+164,0,U,patient_164_age_0_U_others (28).jpg,0,train,4
+43,0,U,patient_043_age_0_U_others (68).jpg,0,train,0
+453,0,U,patient_453_age_0_U_others (421).jpg,0,test,-1
+135,0,U,patient_135_age_0_U_others (452).jpg,0,train,0
+404,0,U,patient_404_age_0_U_others (498).jpg,0,train,0
+246,0,U,patient_246_age_0_U_others (409).jpg,0,train,2
+249,0,U,patient_249_age_0_U_others (54).jpg,0,train,2
+206,0,U,patient_206_age_0_U_others (298).jpg,0,train,3
+272,0,U,patient_272_age_0_U_others (408).jpg,0,train,1
+394,0,U,patient_394_age_0_U_others (158).jpg,0,train,1
+208,0,U,patient_208_age_0_U_others (430).jpg,0,train,2
+368,0,U,patient_368_age_0_U_others (154).jpg,0,test,-1
+52,0,U,patient_052_age_0_U_others (78).jpg,0,train,2
+292,0,U,patient_292_age_0_U_others (279).jpg,0,train,0
+83,0,U,patient_083_age_0_U_others (338).jpg,0,train,3
+2,0,U,patient_002_age_0_U_others (422).jpg,0,train,4
+90,0,U,patient_090_age_0_U_others (499).jpg,0,train,2
+183,0,U,patient_183_age_0_U_others (441).jpg,0,train,0
+165,0,U,patient_165_age_0_U_others (151).jpg,0,test,-1
+242,0,U,patient_242_age_0_U_others (454).jpg,0,test,-1
+347,0,U,patient_347_age_0_U_others (337).jpg,0,train,2
+72,0,U,patient_072_age_0_U_others (315).jpg,0,train,4
+221,0,U,patient_221_age_0_U_others (180).jpg,0,test,-1
+157,0,U,patient_157_age_0_U_others (369).jpg,0,train,3
+312,0,U,patient_312_age_0_U_others (464).jpg,0,train,1
+493,0,U,patient_493_age_0_U_others (273).jpg,0,train,4
+463,0,U,patient_463_age_0_U_others (500).jpg,0,train,1
+143,0,U,patient_143_age_0_U_others (24).jpg,0,train,3
+154,0,U,patient_154_age_0_U_others (196).jpg,0,train,4
+473,0,U,patient_473_age_0_U_others (149).jpg,0,train,1
+338,0,U,patient_338_age_0_U_others (501).jpg,0,test,-1
+153,0,U,patient_153_age_0_U_others (394).jpg,0,train,1
+309,0,U,patient_309_age_0_U_others (340).jpg,0,train,2
+133,0,U,patient_133_age_0_U_others (440).jpg,0,test,-1
+30,0,U,patient_030_age_0_U_others (399).jpg,0,train,0
+436,0,U,patient_436_age_0_U_others (316).jpg,0,train,3
+301,0,U,patient_301_age_0_U_others (433).jpg,0,test,-1
+166,0,U,patient_166_age_0_U_others (479).jpg,0,test,-1
+1,0,U,patient_001_age_0_U_others (303).jpg,0,train,3
+372,0,U,patient_372_age_0_U_others (27).jpg,0,train,3
+265,0,U,patient_265_age_0_U_others (186).jpg,0,train,3
+409,0,U,patient_409_age_0_U_others (235).jpg,0,train,1
+228,0,U,patient_228_age_0_U_others (480).jpg,0,train,4
+452,0,U,patient_452_age_0_U_others (392).jpg,0,train,0
+417,0,U,patient_417_age_0_U_others (292).jpg,0,train,3
+327,0,U,patient_327_age_0_U_others (413).jpg,0,train,1
+311,0,U,patient_311_age_0_U_others (130).jpg,0,train,2
+499,0,U,patient_499_age_0_U_others (113).jpg,0,train,4
+51,0,U,patient_051_age_0_U_others (494).jpg,0,train,1
+456,0,U,patient_456_age_0_U_others (363).jpg,0,train,4
+82,0,U,patient_082_age_0_U_others (294).jpg,0,train,0
+363,0,U,patient_363_age_0_U_others (490).jpg,0,train,0
+185,0,U,patient_185_age_0_U_others (364).jpg,0,test,-1
+202,0,U,patient_202_age_0_U_others (275).jpg,0,train,2
+247,0,U,patient_247_age_0_U_others (10).jpg,0,train,2
+349,0,U,patient_349_age_0_U_others (474).jpg,0,train,4
+32,0,U,patient_032_age_0_U_others (400).jpg,0,train,1
+492,0,U,patient_492_age_0_U_others (35).jpg,0,train,3
+509,0,U,patient_509_age_0_U_others (323).jpg,0,train,0
+203,0,U,patient_203_age_0_U_others (17).jpg,0,train,3
+294,0,U,patient_294_age_0_U_others (178).jpg,0,train,4
+174,0,U,patient_174_age_0_U_others (170).jpg,0,test,-1
+7,0,U,patient_007_age_0_U_others (74).jpg,0,train,3
+480,0,U,patient_480_age_0_U_others (447).jpg,0,train,1
+26,0,U,patient_026_age_0_U_others (83).jpg,0,train,0
+343,0,U,patient_343_age_0_U_others (67).jpg,0,test,-1
+33,0,U,patient_033_age_0_U_others (141).jpg,0,train,0
+89,0,U,patient_089_age_0_U_others (80).jpg,0,train,2
+360,0,U,patient_360_age_0_U_others (384).jpg,0,train,0
+136,0,U,patient_136_age_0_U_others (407).jpg,0,train,4
+116,0,U,patient_116_age_0_U_others (176).jpg,0,train,1
+506,0,U,patient_506_age_0_U_others (497).jpg,0,train,2
+367,0,U,patient_367_age_0_U_others (485).jpg,0,train,2
+410,0,U,patient_410_age_0_U_others (460).jpg,0,train,2
+443,0,U,patient_443_age_0_U_others (492).jpg,0,train,4
+211,0,U,patient_211_age_0_U_others (45).jpg,0,train,3
+199,0,U,patient_199_age_0_U_others (33).jpg,0,train,3
+181,0,U,patient_181_age_0_U_others (257).jpg,0,train,3
+270,0,U,patient_270_age_0_U_others (248).jpg,0,train,2
+433,0,U,patient_433_age_0_U_others (207).jpg,0,train,0
+80,0,U,patient_080_age_0_U_others (467).jpg,0,test,-1
+18,0,U,patient_018_age_0_U_others (450).jpg,0,train,3
+411,0,U,patient_411_age_0_U_others (63).jpg,0,test,-1
+361,0,U,patient_361_age_0_U_others (350).jpg,0,train,1
+35,0,U,patient_035_age_0_U_others (191).jpg,0,train,2
+398,0,U,patient_398_age_0_U_others (131).jpg,0,train,3
+49,0,U,patient_049_age_0_U_others (25).jpg,0,train,4
+213,0,U,patient_213_age_0_U_others (475).jpg,0,train,1
+407,0,U,patient_407_age_0_U_others (7).jpg,0,train,1
+214,0,U,patient_214_age_0_U_others (203).jpg,0,train,4
+356,0,U,patient_356_age_0_U_others (321).jpg,0,train,2
+300,0,U,patient_300_age_0_U_others (348).jpg,0,test,-1
+147,0,U,patient_147_age_0_U_others (324).jpg,0,test,-1
+253,0,U,patient_253_age_0_U_others (64).jpg,0,train,1
+161,0,U,patient_161_age_0_U_others (187).jpg,0,train,2
+224,0,U,patient_224_age_0_U_others (133).jpg,0,train,3
+513,0,U,patient_513_age_0_U_others (288).jpg,0,train,3
+425,0,U,patient_425_age_0_U_others (233).jpg,0,test,-1
+321,0,U,patient_321_age_0_U_others (304).jpg,0,train,3
+173,0,U,patient_173_age_0_U_others (417).jpg,0,train,0
+96,0,U,patient_096_age_0_U_others (376).jpg,0,test,-1
+64,0,U,patient_064_age_0_U_others (424).jpg,0,train,2
+257,0,U,patient_257_age_0_U_others (32).jpg,0,train,2
+448,0,U,patient_448_age_0_U_others (171).jpg,0,train,0
+298,0,U,patient_298_age_0_U_others (383).jpg,0,train,2
+373,0,U,patient_373_age_0_U_others (228).jpg,0,test,-1
+134,0,U,patient_134_age_0_U_others (267).jpg,0,train,2
+87,0,U,patient_087_age_0_U_others (163).jpg,0,train,3
+392,0,U,patient_392_age_0_U_others (388).jpg,0,train,3
+119,0,U,patient_119_age_0_U_others (371).jpg,0,train,3
+383,0,U,patient_383_age_0_U_others (30).jpg,0,train,2
+429,0,U,patient_429_age_0_U_others (175).jpg,0,train,2
+240,0,U,patient_240_age_0_U_others (108).jpg,0,train,4
+6,0,U,patient_006_age_0_U_others (435).jpg,0,train,0
+364,0,U,patient_364_age_0_U_others (84).jpg,0,train,2
+280,0,U,patient_280_age_0_U_others (139).jpg,0,train,1
+93,0,U,patient_093_age_0_U_others (164).jpg,0,train,4
+430,0,U,patient_430_age_0_U_others (72).jpg,0,train,2
+36,0,U,patient_036_age_0_U_others (117).jpg,0,test,-1
+386,0,U,patient_386_age_0_U_others (104).jpg,0,test,-1
+105,0,U,patient_105_age_0_U_others (201).jpg,0,test,-1
+241,0,U,patient_241_age_0_U_others (423).jpg,0,test,-1
+84,0,U,patient_084_age_0_U_others (107).jpg,0,test,-1
+273,0,U,patient_273_age_0_U_others (260).jpg,0,train,1
+390,0,U,patient_390_age_0_U_others (101).jpg,0,train,2
+370,0,U,patient_370_age_0_U_others (29).jpg,0,train,0
+342,0,U,patient_342_age_0_U_others (351).jpg,0,train,1
+469,0,U,patient_469_age_0_U_others (482).jpg,0,train,3
+352,0,U,patient_352_age_0_U_others (359).jpg,0,train,2
+497,0,U,patient_497_age_0_U_others (8).jpg,0,train,4
+472,0,U,patient_472_age_0_U_others (344).jpg,0,train,1
+293,0,U,patient_293_age_0_U_others (507).jpg,0,train,3
+479,0,U,patient_479_age_0_U_others (458).jpg,0,test,-1
+447,0,U,patient_447_age_0_U_others (85).jpg,0,train,1
+205,0,U,patient_205_age_0_U_others (373).jpg,0,train,4
+510,0,U,patient_510_age_0_U_others (486).jpg,0,train,0
+441,0,U,patient_441_age_0_U_others (156).jpg,0,test,-1
+339,0,U,patient_339_age_0_U_others (495).jpg,0,train,1
+114,0,U,patient_114_age_0_U_others (293).jpg,0,train,1
+234,0,U,patient_234_age_0_U_others (194).jpg,0,train,1
+178,0,U,patient_178_age_0_U_others (477).jpg,0,train,1
+476,0,U,patient_476_age_0_U_others (496).jpg,0,train,2
+113,0,U,patient_113_age_0_U_others (253).jpg,0,train,2
+54,0,U,patient_054_age_0_U_others (52).jpg,0,test,-1
+359,0,U,patient_359_age_0_U_others (513).jpg,0,train,4
+59,0,U,patient_059_age_0_U_others (255).jpg,0,test,-1
+502,0,U,patient_502_age_0_U_others (436).jpg,0,train,3
+295,0,U,patient_295_age_0_U_others (469).jpg,0,train,2
+503,0,U,patient_503_age_0_U_others (167).jpg,0,test,-1
+287,0,U,patient_287_age_0_U_others (411).jpg,0,train,0
+464,0,U,patient_464_age_0_U_others (211).jpg,0,train,0
+268,0,U,patient_268_age_0_U_others (110).jpg,0,train,3
+439,0,U,patient_439_age_0_U_others (190).jpg,0,train,3
+379,0,U,patient_379_age_0_U_others (161).jpg,0,train,3
+382,0,U,patient_382_age_0_U_others (231).jpg,0,train,1
+353,0,U,patient_353_age_0_U_others (462).jpg,0,train,2
+251,0,U,patient_251_age_0_U_others (221).jpg,0,train,2
+104,0,U,patient_104_age_0_U_others (155).jpg,0,train,0
+22,0,U,patient_022_age_0_U_others (405).jpg,0,train,4
+171,0,U,patient_171_age_0_U_others (391).jpg,0,train,0
+465,0,U,patient_465_age_0_U_others (453).jpg,0,train,4
+454,0,U,patient_454_age_0_U_others (280).jpg,0,train,0
+167,0,U,patient_167_age_0_U_others (325).jpg,0,train,3
+488,0,U,patient_488_age_0_U_others (397).jpg,0,train,2
+358,0,U,patient_358_age_0_U_others (368).jpg,0,train,0
+195,0,U,patient_195_age_0_U_others (381).jpg,0,train,4
+231,0,U,patient_231_age_0_U_others (244).jpg,0,test,-1
+365,0,U,patient_365_age_0_U_others (69).jpg,0,train,3
+371,0,U,patient_371_age_0_U_others (272).jpg,0,train,1
+331,0,U,patient_331_age_0_U_others (181).jpg,0,train,1
+144,0,U,patient_144_age_0_U_others (331).jpg,0,train,1
+306,0,U,patient_306_age_0_U_others (311).jpg,0,train,2
+25,0,U,patient_025_age_0_U_others (404).jpg,0,test,-1
+67,0,U,patient_067_age_0_U_others (98).jpg,0,train,1
+485,0,U,patient_485_age_0_U_others (269).jpg,0,test,-1
+108,0,U,patient_108_age_0_U_others (125).jpg,0,train,2
+266,0,U,patient_266_age_0_U_others (461).jpg,0,train,4
+440,0,U,patient_440_age_0_U_others (426).jpg,0,train,0
+271,0,U,patient_271_age_0_U_others (127).jpg,0,train,1
+461,0,U,patient_461_age_0_U_others (223).jpg,0,train,4
+27,0,U,patient_027_age_0_U_others (16).jpg,0,train,4
+222,0,U,patient_222_age_0_U_others (4).jpg,0,train,0
+276,0,U,patient_276_age_0_U_others (310).jpg,0,test,-1
+14,0,U,patient_014_age_0_U_others (225).jpg,0,test,-1
+444,0,U,patient_444_age_0_U_others (352).jpg,0,train,3
+435,0,U,patient_435_age_0_U_others (123).jpg,0,train,2
+210,0,U,patient_210_age_0_U_others (415).jpg,0,train,3
+374,0,U,patient_374_age_0_U_others (372).jpg,0,train,1
+198,0,U,patient_198_age_0_U_others (299).jpg,0,test,-1
+194,0,U,patient_194_age_0_U_others (193).jpg,0,train,1
+466,0,U,patient_466_age_0_U_others (287).jpg,0,test,-1
+218,0,U,patient_218_age_0_U_others (241).jpg,0,train,0
+514,0,U,patient_514_age_0_U_others (14).jpg,0,train,1
+74,0,U,patient_074_age_0_U_others (367).jpg,0,train,0
+326,0,U,patient_326_age_0_U_others (119).jpg,0,test,-1
+118,0,U,patient_118_age_0_U_others (459).jpg,0,test,-1
+215,0,U,patient_215_age_0_U_others (483).jpg,0,train,4
+346,0,U,patient_346_age_0_U_others (357).jpg,0,train,4
+406,0,U,patient_406_age_0_U_others (162).jpg,0,train,4
+53,0,U,patient_053_age_0_U_others (468).jpg,0,train,3
+46,0,U,patient_046_age_0_U_others (66).jpg,0,test,-1
+316,0,U,patient_316_age_0_U_others (418).jpg,0,test,-1
+244,0,U,patient_244_age_0_U_others (263).jpg,0,train,2
+160,0,U,patient_160_age_0_U_others (105).jpg,0,train,2
+201,0,U,patient_201_age_0_U_others (140).jpg,0,test,-1
+149,0,U,patient_149_age_0_U_others (56).jpg,0,train,0
+180,0,U,patient_180_age_0_U_others (472).jpg,0,train,4
+267,0,U,patient_267_age_0_U_others (322).jpg,0,test,-1
+484,0,U,patient_484_age_0_U_others (6).jpg,0,train,0
+318,0,U,patient_318_age_0_U_others (160).jpg,0,train,3
+302,0,U,patient_302_age_0_U_others (240).jpg,0,train,4
+47,0,U,patient_047_age_0_U_others (242).jpg,0,train,2
+337,0,U,patient_337_age_0_U_others (389).jpg,0,train,2
+495,0,U,patient_495_age_0_U_others (442).jpg,0,train,0
+281,0,U,patient_281_age_0_U_others (282).jpg,0,train,0
+248,0,U,patient_248_age_0_U_others (245).jpg,0,train,4
+182,0,U,patient_182_age_0_U_others (307).jpg,0,train,0
+261,0,U,patient_261_age_0_U_others (412).jpg,0,train,1
+176,0,U,patient_176_age_0_U_others (333).jpg,0,train,2
+78,0,U,patient_078_age_0_U_others (183).jpg,0,train,4
+351,0,U,patient_351_age_0_U_others (439).jpg,0,train,4
+155,0,U,patient_155_age_0_U_others (509).jpg,0,train,3
+140,0,U,patient_140_age_0_U_others (278).jpg,0,train,1
+369,0,U,patient_369_age_0_U_others (249).jpg,0,train,1
+438,0,U,patient_438_age_0_U_others (334).jpg,0,test,-1
+490,0,U,patient_490_age_0_U_others (491).jpg,0,train,3
+408,0,U,patient_408_age_0_U_others (276).jpg,0,test,-1
+431,0,U,patient_431_age_0_U_others (136).jpg,0,train,3
+418,0,U,patient_418_age_0_U_others (289).jpg,0,train,3
+319,0,U,patient_319_age_0_U_others (247).jpg,0,train,4
+79,0,U,patient_079_age_0_U_others (88).jpg,0,train,1
+467,0,U,patient_467_age_0_U_others (514).jpg,0,train,4
+169,0,U,patient_169_age_0_U_others (318).jpg,0,train,0
+491,0,U,patient_491_age_0_U_others (192).jpg,0,train,1
+432,0,U,patient_432_age_0_U_others (261).jpg,0,test,-1
+5,0,U,patient_005_age_0_U_others (120).jpg,0,train,0
+175,0,U,patient_175_age_0_U_others (366).jpg,0,train,1
+232,0,U,patient_232_age_0_U_others (266).jpg,0,test,-1
+91,0,U,patient_091_age_0_U_others (73).jpg,0,train,4
+335,0,U,patient_335_age_0_U_others (213).jpg,0,test,-1
+296,0,U,patient_296_age_0_U_others (488).jpg,0,test,-1
+148,0,U,patient_148_age_0_U_others (79).jpg,0,train,1
+86,0,U,patient_086_age_0_U_others (173).jpg,0,train,3
+376,0,U,patient_376_age_0_U_others (463).jpg,0,train,2
+320,0,U,patient_320_age_0_U_others (60).jpg,0,test,-1
+219,0,U,patient_219_age_0_U_others (114).jpg,0,train,1
+20,0,U,patient_020_age_0_U_others (306).jpg,0,test,-1
+427,0,U,patient_427_age_0_U_others (75).jpg,0,train,4
+150,0,U,patient_150_age_0_U_others (18).jpg,0,train,4
+345,0,U,patient_345_age_0_U_others (444).jpg,0,train,0
+381,0,U,patient_381_age_0_U_others (76).jpg,0,test,-1
+258,0,U,patient_258_age_0_U_others (346).jpg,0,train,1
+121,0,U,patient_121_age_0_U_others (510).jpg,0,train,4
+103,0,U,patient_103_age_0_U_others (47).jpg,0,train,1
+412,0,U,patient_412_age_0_U_others (268).jpg,0,train,1
+460,0,U,patient_460_age_0_U_others (92).jpg,0,train,0
+498,0,U,patient_498_age_0_U_others (146).jpg,0,train,4
+328,0,U,patient_328_age_0_U_others (53).jpg,0,train,2
+225,0,U,patient_225_age_0_U_others (308).jpg,0,train,4
+132,0,U,patient_132_age_0_U_others (9).jpg,0,test,-1
+384,0,U,patient_384_age_0_U_others (112).jpg,0,train,0
+380,0,U,patient_380_age_0_U_others (210).jpg,0,test,-1
+399,0,U,patient_399_age_0_U_others (174).jpg,0,train,3
+262,0,U,patient_262_age_0_U_others (508).jpg,0,train,4
+60,0,U,patient_060_age_0_U_others (37).jpg,0,train,3
+254,0,U,patient_254_age_0_U_others (465).jpg,0,train,2
+400,0,U,patient_400_age_0_U_others (145).jpg,0,train,3
+355,0,U,patient_355_age_0_U_others (265).jpg,0,train,0
+42,0,U,patient_042_age_0_U_others (487).jpg,0,train,2
+62,0,U,patient_062_age_0_U_others (277).jpg,0,train,0
+95,0,U,patient_095_age_0_U_others (198).jpg,0,test,-1
+315,0,U,patient_315_age_0_U_others (111).jpg,0,train,4
+217,0,U,patient_217_age_0_U_others (177).jpg,0,train,1
+226,0,U,patient_226_age_0_U_others (100).jpg,0,train,3
+172,0,U,patient_172_age_0_U_others (206).jpg,0,test,-1
+142,0,U,patient_142_age_0_U_others (427).jpg,0,test,-1
+255,0,U,patient_255_age_0_U_others (153).jpg,0,test,-1
+196,0,U,patient_196_age_0_U_others (115).jpg,0,train,4
+288,0,U,patient_288_age_0_U_others (251).jpg,0,train,3
+159,0,U,patient_159_age_0_U_others (347).jpg,0,test,-1
+24,0,U,patient_024_age_0_U_others (329).jpg,0,train,3
+39,0,U,patient_039_age_0_U_others (335).jpg,0,test,-1
+151,0,U,patient_151_age_0_U_others (258).jpg,0,train,0
+277,0,U,patient_277_age_0_U_others (15).jpg,0,train,4
+21,0,U,patient_021_age_0_U_others (361).jpg,0,train,2
+76,0,U,patient_076_age_0_U_others (281).jpg,0,train,4
+423,0,U,patient_423_age_0_U_others (118).jpg,0,train,3
+137,0,U,patient_137_age_0_U_others (82).jpg,0,train,2
+450,0,U,patient_450_age_0_U_others (466).jpg,0,train,4
+313,0,U,patient_313_age_0_U_others (152).jpg,0,train,4
+391,0,U,patient_391_age_0_U_others (102).jpg,0,test,-1
+350,0,U,patient_350_age_0_U_others (382).jpg,0,train,3
+126,0,U,patient_126_age_0_U_others (179).jpg,0,train,2
+505,0,U,patient_505_age_0_U_others (197).jpg,0,train,1
+357,0,U,patient_357_age_0_U_others (428).jpg,0,test,-1
+457,0,U,patient_457_age_0_U_others (55).jpg,0,train,3
+378,0,U,patient_378_age_0_U_others (128).jpg,0,train,4
+354,0,U,patient_354_age_0_U_others (222).jpg,0,test,-1
+125,0,U,patient_125_age_0_U_others (39).jpg,0,train,4
+138,0,U,patient_138_age_0_U_others (95).jpg,0,train,4
+197,0,U,patient_197_age_0_U_others (451).jpg,0,train,1
+483,0,U,patient_483_age_0_U_others (374).jpg,0,train,4
+341,0,U,patient_341_age_0_U_others (121).jpg,0,train,0
+101,0,U,patient_101_age_0_U_others (159).jpg,0,test,-1
+13,0,U,patient_013_age_0_U_others (503).jpg,0,train,2
+252,0,U,patient_252_age_0_U_others (150).jpg,0,train,3
+77,0,U,patient_077_age_0_U_others (132).jpg,0,train,2
+17,0,U,patient_017_age_0_U_others (230).jpg,0,train,3
+41,0,U,patient_041_age_0_U_others (431).jpg,0,train,2
+303,0,U,patient_303_age_0_U_others (124).jpg,0,train,4
+186,0,U,patient_186_age_0_U_others (449).jpg,0,train,1
+489,0,U,patient_489_age_0_U_others (70).jpg,0,train,3
+512,0,U,patient_512_age_0_U_others (99).jpg,0,train,4
+56,0,U,patient_056_age_0_U_others (403).jpg,0,train,1
+111,0,U,patient_111_age_0_U_others (215).jpg,0,train,2
+9,0,U,patient_009_age_0_U_others (478).jpg,0,train,3
+366,0,U,patient_366_age_0_U_others (390).jpg,0,test,-1
+259,0,U,patient_259_age_0_U_others (302).jpg,0,train,1
+477,0,U,patient_477_age_0_U_others (341).jpg,0,test,-1
+45,0,U,patient_045_age_0_U_others (358).jpg,0,train,1
+66,0,U,patient_066_age_0_U_others (219).jpg,0,test,-1
+177,0,U,patient_177_age_0_U_others (21).jpg,0,train,3
+451,0,U,patient_451_age_0_U_others (13).jpg,0,train,1
+336,0,U,patient_336_age_0_U_others (20).jpg,0,train,1
+471,0,U,patient_471_age_0_U_others (254).jpg,0,train,0
+322,0,U,patient_322_age_0_U_others (212).jpg,0,train,4
+279,0,U,patient_279_age_0_U_others (232).jpg,0,train,2
+250,0,U,patient_250_age_0_U_others (148).jpg,0,train,1
+15,0,U,patient_015_age_0_U_others (326).jpg,0,train,2
+115,0,U,patient_115_age_0_U_others (214).jpg,0,train,4
+8,0,U,patient_008_age_0_U_others (406).jpg,0,train,0
+274,0,U,patient_274_age_0_U_others (328).jpg,0,train,2
+422,0,U,patient_422_age_0_U_others (44).jpg,0,test,-1
+317,0,U,patient_317_age_0_U_others (188).jpg,0,train,1
+223,0,U,patient_223_age_0_U_others (142).jpg,0,train,4
+188,0,U,patient_188_age_0_U_others (339).jpg,0,train,1
+235,0,U,patient_235_age_0_U_others (189).jpg,0,train,3
+204,0,U,patient_204_age_0_U_others (317).jpg,0,train,0
+58,0,U,patient_058_age_0_U_others (448).jpg,0,train,3
+402,0,U,patient_402_age_0_U_others (109).jpg,0,train,1
+275,0,U,patient_275_age_0_U_others (504).jpg,0,train,0
+88,0,U,patient_088_age_0_U_others (31).jpg,0,train,2
+10,0,U,patient_010_age_0_U_others (208).jpg,0,train,3
+128,0,U,patient_128_age_0_U_others (49).jpg,0,train,0
+511,0,U,patient_511_age_0_U_others (506).jpg,0,test,-1
+12,0,U,patient_012_age_0_U_others (262).jpg,0,train,2
+330,0,U,patient_330_age_0_U_others (360).jpg,0,train,0
+243,0,U,patient_243_age_0_U_others (355).jpg,0,train,3
+31,0,U,patient_031_age_0_U_others (309).jpg,0,train,3
+486,0,U,patient_486_age_0_U_others (11).jpg,0,train,2
+437,0,U,patient_437_age_0_U_others (456).jpg,0,test,-1
+401,0,U,patient_401_age_0_U_others (2).jpg,0,train,0
+57,0,U,patient_057_age_0_U_others (283).jpg,0,train,0
+414,0,U,patient_414_age_0_U_others (410).jpg,0,train,4
+332,0,U,patient_332_age_0_U_others (86).jpg,0,train,3
+4,0,U,patient_004_age_0_U_others (343).jpg,0,train,0
+284,0,U,patient_284_age_0_U_others (227).jpg,0,train,3
+139,0,U,patient_139_age_0_U_others (26).jpg,0,train,1
+289,0,U,patient_289_age_0_U_others (209).jpg,0,test,-1
+420,0,U,patient_420_age_0_U_others (271).jpg,0,train,3
+256,0,U,patient_256_age_0_U_others (332).jpg,0,train,2
+100,0,U,patient_100_age_0_U_others (300).jpg,0,test,-1
+307,0,U,patient_307_age_0_U_others (166).jpg,0,train,0
+131,0,U,patient_131_age_0_U_others (345).jpg,0,train,3
+237,0,U,patient_237_age_0_U_others (470).jpg,0,train,0
+94,0,U,patient_094_age_0_U_others (414).jpg,0,train,2
+189,0,U,patient_189_age_0_U_others (291).jpg,0,test,-1
+504,0,U,patient_504_age_0_U_others (87).jpg,0,train,3
+239,0,U,patient_239_age_0_U_others (89).jpg,0,train,4
+291,0,U,patient_291_age_0_U_others (445).jpg,0,train,2
+110,0,U,patient_110_age_0_U_others (270).jpg,0,train,3
+152,0,U,patient_152_age_0_U_others (77).jpg,0,train,2
+245,0,U,patient_245_age_0_U_others (336).jpg,0,train,2
+129,0,U,patient_129_age_0_U_others (216).jpg,0,train,3
+130,0,U,patient_130_age_0_U_others (395).jpg,0,test,-1
+29,0,U,patient_029_age_0_U_others (312).jpg,0,train,2
+145,0,U,patient_145_age_0_U_others (402).jpg,0,test,-1
+424,0,U,patient_424_age_0_U_others (398).jpg,0,train,2
+230,0,U,patient_230_age_0_U_others (81).jpg,0,train,0
+3,0,U,patient_003_age_0_U_others (284).jpg,0,train,4
+63,0,U,patient_063_age_0_U_others (511).jpg,0,train,2
+478,0,U,patient_478_age_0_U_others (286).jpg,0,train,4
+415,0,U,patient_415_age_0_U_others (379).jpg,0,train,4
+23,0,U,patient_023_age_0_U_others (46).jpg,0,train,0
+333,0,U,patient_333_age_0_U_others (42).jpg,0,test,-1
+481,0,U,patient_481_age_0_U_others (195).jpg,0,train,3
+28,0,U,patient_028_age_0_U_others (250).jpg,0,train,0
+442,0,U,patient_442_age_0_U_others (446).jpg,0,train,0
+75,0,U,patient_075_age_0_U_others (19).jpg,0,train,3
+170,0,U,patient_170_age_0_U_others (34).jpg,0,test,-1
+487,0,U,patient_487_age_0_U_others (505).jpg,0,test,-1
+388,0,U,patient_388_age_0_U_others (356).jpg,0,train,2
+403,0,U,patient_403_age_0_U_others (305).jpg,0,train,1
+455,0,U,patient_455_age_0_U_others (239).jpg,0,train,1
+200,0,U,patient_200_age_0_U_others (419).jpg,0,test,-1
+156,0,U,patient_156_age_0_U_others (94).jpg,0,train,1
+362,0,U,patient_362_age_0_U_others (320).jpg,0,train,4
+117,0,U,patient_117_age_0_U_others (296).jpg,0,test,-1
+475,0,U,patient_475_age_0_U_others (457).jpg,0,train,1
+286,0,U,patient_286_age_0_U_others (224).jpg,0,test,-1
+98,0,U,patient_098_age_0_U_others (285).jpg,0,test,-1
+501,0,U,patient_501_age_0_U_others (473).jpg,0,test,-1
+340,0,U,patient_340_age_0_U_others (57).jpg,0,train,1
+55,0,U,patient_055_age_0_U_others (295).jpg,0,train,4
+334,0,U,patient_334_age_0_U_others (455).jpg,0,train,1
+37,0,U,patient_037_age_0_U_others (185).jpg,0,test,-1
+192,0,U,patient_192_age_0_U_others (22).jpg,0,train,1
+61,0,U,patient_061_age_0_U_others (264).jpg,0,train,4
+445,0,U,patient_445_age_0_U_others (234).jpg,0,train,3
+146,0,U,patient_146_age_0_U_others (218).jpg,0,train,2
+413,0,U,patient_413_age_0_U_others (5).jpg,0,train,4
+308,0,U,patient_308_age_0_U_others (144).jpg,0,train,4
+212,0,U,patient_212_age_0_U_others (443).jpg,0,train,4
+158,0,U,patient_158_age_0_U_others (229).jpg,0,train,4
+396,0,U,patient_396_age_0_U_others (143).jpg,0,train,3
+310,0,U,patient_310_age_0_U_others (58).jpg,0,train,4
+71,0,U,patient_071_age_0_U_others (202).jpg,0,train,4
+297,0,U,patient_297_age_0_U_others (62).jpg,0,train,4
+500,0,U,patient_500_age_0_U_others (122).jpg,0,test,-1
+446,0,U,patient_446_age_0_U_others (471).jpg,0,train,0
+99,0,U,patient_099_age_0_U_others (96).jpg,0,train,0
+449,0,U,patient_449_age_0_U_others (330).jpg,0,train,2
+107,0,U,patient_107_age_0_U_others (489).jpg,0,train,1
+323,0,U,patient_323_age_0_U_others (48).jpg,0,train,0
+209,0,U,patient_209_age_0_U_others (380).jpg,0,train,2
+428,0,U,patient_428_age_0_U_others (438).jpg,0,test,-1
+260,0,U,patient_260_age_0_U_others (425).jpg,0,train,3
+48,0,U,patient_048_age_0_U_others (259).jpg,0,test,-1
+462,0,U,patient_462_age_0_U_others (377).jpg,0,train,3
+112,0,U,patient_112_age_0_U_others (314).jpg,0,train,3
+299,0,U,patient_299_age_0_U_others (50).jpg,0,train,3
+416,0,U,patient_416_age_0_U_others (290).jpg,0,train,2
+97,0,U,patient_097_age_0_U_others (90).jpg,0,train,3
+496,0,U,patient_496_age_0_U_others (512).jpg,0,test,-1
+263,0,U,patient_263_age_0_U_others (396).jpg,0,train,0
+324,0,U,patient_324_age_0_U_others (502).jpg,0,train,4
+193,0,U,patient_193_age_0_U_others (97).jpg,0,train,0
+34,0,U,patient_034_age_0_U_others (416).jpg,0,test,-1
+85,0,U,patient_085_age_0_U_others (61).jpg,0,train,1
+127,0,U,patient_127_age_0_U_others (157).jpg,0,train,3
+377,0,U,patient_377_age_0_U_others (297).jpg,0,train,3
+229,0,U,patient_229_age_0_U_others (432).jpg,0,test,-1
+163,0,U,patient_163_age_0_U_others (103).jpg,0,train,0
+190,0,U,patient_190_age_0_U_others (301).jpg,0,train,1
+278,0,U,patient_278_age_0_U_others (246).jpg,0,test,-1
